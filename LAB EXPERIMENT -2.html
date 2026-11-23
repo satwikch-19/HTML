@@ -1,0 +1,191 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YA Hospitals</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>YA Hospitals</h1>
+        <p>Your Health, Our Priority</p>
+
+        <!-- Navigation -->
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#doctors">Doctors</a></li>
+                <li><a href="#appointment">Appointment</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="home">
+
+        <!-- Hospital Introduction -->
+        <section>
+            <h2>Welcome to YA Hospitals</h2>
+            <p>
+                We provide quality healthcare services with
+                experienced doctors and modern facilities.
+            </p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Our Services</h2>
+
+            <article>
+                <h3>Psyshcology</h3>
+                <p>Specialized treatment for Mind-related diseases.</p>
+            </article>
+
+            <article>
+                <h3>Neurology</h3>
+                <p>Advanced treatment for brain and nerve disorders.</p>
+            </article>
+
+            <article>
+                <h3>Emergency Care</h3>
+                <p>24/7 emergency medical services.</p>
+            </article>
+        </section>
+
+        <!-- Doctors Section -->
+        <section id="doctors">
+            <h2>Our Doctors</h2>
+
+            <article>
+                <h3>Dr.YASWANTH</h3>
+                <p>PSYCOLOGIST</p>
+            </article>
+
+            <article>
+                <h3>Dr.P.AKSHAY</h3>
+                <p>NEUROLOGIST</p>
+            </article>
+        </section>
+
+        <!-- Appointment Form -->
+        <section id="appointment">
+            <h2>Book an Appointment</h2>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                   <fieldset style="
+                             background-color: #eaf4ff;
+                             border: 2px solid #2471a3;
+                           border-radius: 10px;
+                             padding: 20px;
+                                            ">
+
+                           <legend style="
+                                   color: #154360;
+                                      font-size: 22px;
+                                             font-weight: bold;
+                                             ">
+                                     Patient Information
+                     </legend>
+
+                    <label for="name">Full Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        autocomplete="name"
+                        required
+                    >
+
+                    <br><br>
+
+                    <label for="email">Email Address:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        autocomplete="email"
+                        required
+                    >
+
+                    <br><br>
+
+                    <label for="phone">Phone Number:</label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        autocomplete="tel"
+                        pattern="[0-9]{10}"
+                        maxlength="10"
+                        title="Enter a 10-digit phone number"
+                        required
+                    >
+
+                    <br><br>
+
+                    <label for="date">Appointment Date:</label>
+                    <input
+                        type="date"
+                        id="date"
+                        name="date"
+                        required
+                    >
+
+                    <br><br>
+
+                    <label for="department">Select Department:</label>
+                    <select id="department" name="department" required>
+                        <option value="">Choose Department</option>
+                        <option value="psyhcology">Psyhcology</option>
+                        <option value="neurology">Neurology</option>
+                        <option value="emergency">Emergency Care</option>
+                    </select>
+
+                    <br><br>
+
+                    <label for="message">Additional Information:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="4"
+                        cols="30"
+                        placeholder="Enter your message"
+                    ></textarea>
+
+                    <br><br>
+
+                    <button type="submit">
+                        Book Appointment
+                    </button>
+
+                    <button type="reset">
+                        Reset
+                    </button>
+
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <address>
+            YA Hospitals, Hyderabad, India
+            <br>
+            Email: info@yahospitals.com
+        </address>
+
+        <p>&copy; 2026 YA Hospitals. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
